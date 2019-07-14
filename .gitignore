@@ -1,0 +1,7 @@
+.idea
+.wordnet
+.DS_Store
+out
+*.zip
+*.txt
+*.iml
