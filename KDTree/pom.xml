@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>CollinearPoints</artifactId>
+    <artifactId>KDTree</artifactId>
+
 
     <dependencies>
         <dependency>
