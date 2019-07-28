@@ -36,10 +36,7 @@ public class Board {
                 return false;
             }
             Coordinate coordinateObj = (Coordinate) obj;
-            if (this.row == coordinateObj.row && this.col == coordinateObj.col) {
-                return true;
-            }
-            return false;
+            return this.row == coordinateObj.row && this.col == coordinateObj.col;
         }
 
         public int getDistance(int otherRow, int otherCol) {

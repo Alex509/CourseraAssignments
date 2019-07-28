@@ -258,9 +258,8 @@ public class FastTST<Value> {
     Node<Value> prefixNode = get(root, prefix, 0);
     if (prefixNode == null) return false;
     if (prefixNode.val != null) return true;
-    if (prefixNode.left == null && prefixNode.mid == null &&
-      prefixNode.right == null) return false;
-    return true;
+      return prefixNode.left != null || prefixNode.mid != null ||
+              prefixNode.right != null;
   }
 }
 
